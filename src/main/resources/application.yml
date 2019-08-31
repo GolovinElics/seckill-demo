@@ -7,10 +7,11 @@ mybatis:
   mapperLocations: classpath:com/imooc/seckill/dao/*.xml
   type-aliases-package: online.shixun.domain
 
+
 spring: 
     # 数据源配置
   datasource: 
-    url: jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/seckill?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: vs2016214237
   # Thymeleaf配置
